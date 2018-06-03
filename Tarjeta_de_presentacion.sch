@@ -71,7 +71,7 @@ U 1 1 5B0A4709
 P 1950 1150
 F 0 "J3" H 1950 1250 50  0000 C CNN
 F 1 "Directa" H 1950 950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1950 1150 50  0001 C CNN
+F 2 "Librerias_FootPrints:Conector_Directo_SMD" H 1950 1150 50  0001 C CNN
 F 3 "" H 1950 1150 50  0001 C CNN
 	1    1950 1150
 	0    -1   -1   0   
@@ -80,9 +80,9 @@ Wire Wire Line
 	1000 1350 1000 1650
 Wire Wire Line
 	1100 1350 1100 1650
-Text Label 1000 1650 1    60   ~ 0
-VDD
 Text Label 1100 1650 1    60   ~ 0
+VDD
+Text Label 1000 1650 1    60   ~ 0
 GND
 Wire Wire Line
 	1950 1350 1950 1650
@@ -313,7 +313,7 @@ $Comp
 L R_Small 1K1
 U 1 1 5B0AE8AB
 P 10100 2450
-F 0 "1K1" H 10130 2470 50  0000 L CNN
+F 0 "1K1" H 10130 2470 50  0001 L CNN
 F 1 "R_Small" H 10130 2410 50  0001 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 10100 2450 50  0001 C CNN
 F 3 "" H 10100 2450 50  0001 C CNN
@@ -346,10 +346,10 @@ Wire Notes Line
 Text Notes 700  5500 0    60   ~ 0
 CAPACITORES DESACOPLE
 $Comp
-L C_Small C2
-U 1 1 5B0AF08B
+L C_Small C4
+U 1 1 5B0AF154
 P 1100 5900
-F 0 "C2" H 1110 5970 50  0000 L CNN
+F 0 "C4" H 1110 5970 50  0000 L CNN
 F 1 "C_Small" H 1110 5820 50  0001 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1100 5900 50  0001 C CNN
 F 3 "" H 1100 5900 50  0001 C CNN
@@ -357,48 +357,27 @@ F 3 "" H 1100 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
-U 1 1 5B0AF154
+L C_Small C5
+U 1 1 5B0AF17F
 P 1350 5900
-F 0 "C4" H 1360 5970 50  0000 L CNN
+F 0 "C5" H 1360 5970 50  0000 L CNN
 F 1 "C_Small" H 1360 5820 50  0001 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1350 5900 50  0001 C CNN
 F 3 "" H 1350 5900 50  0001 C CNN
 	1    1350 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L C_Small C5
-U 1 1 5B0AF17F
-P 1600 5900
-F 0 "C5" H 1610 5970 50  0000 L CNN
-F 1 "C_Small" H 1610 5820 50  0001 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1600 5900 50  0001 C CNN
-F 3 "" H 1600 5900 50  0001 C CNN
-	1    1600 5900
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	1350 5650 1350 5800
 Wire Wire Line
 	1100 5800 1100 5650
 Wire Wire Line
-	1100 5650 1600 5650
-Wire Wire Line
-	1600 5650 1600 5800
-Wire Wire Line
-	1350 5800 1350 5650
-Connection ~ 1350 5650
-Wire Wire Line
-	1600 6000 1600 6200
-Wire Wire Line
-	1600 6200 1100 6200
-Wire Wire Line
-	1100 6200 1100 6000
-Wire Wire Line
 	1350 6000 1350 6200
-Connection ~ 1350 6200
-Text Label 1150 5650 0    60   ~ 0
+Wire Wire Line
+	1100 6000 1100 6200
+Text Label 1200 5650 0    60   ~ 0
 VDD
-Text Label 1150 6200 0    60   ~ 0
+Text Label 1200 6200 0    60   ~ 0
 GND
 Wire Notes Line
 	650  5350 650  6300
@@ -429,8 +408,6 @@ Wire Wire Line
 	3750 1900 3650 1900
 Wire Wire Line
 	3450 1900 3150 1900
-Text Label 3150 1900 0    60   ~ 0
-VDD
 Text Label 3300 3400 0    60   ~ 0
 GND
 Text Label 3300 3500 0    60   ~ 0
@@ -617,7 +594,7 @@ $Comp
 L R_Small 1K3
 U 1 1 5B0DFA8F
 P 10100 2800
-F 0 "1K3" H 10130 2820 50  0000 L CNN
+F 0 "1K3" H 10130 2820 50  0001 L CNN
 F 1 "R_Small" H 10130 2760 50  0001 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 10100 2800 50  0001 C CNN
 F 3 "" H 10100 2800 50  0001 C CNN
@@ -649,7 +626,7 @@ $Comp
 L R_Small 1K4
 U 1 1 5B0DFAE4
 P 10100 3100
-F 0 "1K4" H 10130 3120 50  0000 L CNN
+F 0 "1K4" H 10130 3120 50  0001 L CNN
 F 1 "R_Small" H 10130 3060 50  0001 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 10100 3100 50  0001 C CNN
 F 3 "" H 10100 3100 50  0001 C CNN
@@ -737,4 +714,10 @@ Wire Wire Line
 	8700 1350 8700 1650
 Text Label 8700 1650 1    60   ~ 0
 RESET
+Text Label 3150 1900 0    60   ~ 0
+VDD
+Wire Wire Line
+	1100 5650 1350 5650
+Wire Wire Line
+	1100 6200 1350 6200
 $EndSCHEMATC
