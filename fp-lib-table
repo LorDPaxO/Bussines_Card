@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Figuras)(type KiCad)(uri "$(KIPRJMOD)/Figuras")(options "")(descr ""))
+  (lib (name Librerias_FootPrints)(type KiCad)(uri "$(KIPRJMOD)/Librerias_FootPrints.pretty")(options "")(descr ""))
+)
