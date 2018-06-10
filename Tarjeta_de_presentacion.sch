@@ -446,7 +446,7 @@ U 1 1 5B0B109C
 P 8600 2250
 F 0 "J2" H 8600 2550 50  0000 C CNN
 F 1 "Conn_01x06" H 8600 1850 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8600 2250 50  0001 C CNN
+F 2 "Librerias_FootPrints:RS232" H 8600 2250 50  0001 C CNN
 F 3 "" H 8600 2250 50  0001 C CNN
 	1    8600 2250
 	0    -1   -1   0   
@@ -670,7 +670,7 @@ U 1 1 5B0E09C7
 P 9650 1150
 F 0 "J5" H 9650 1650 50  0000 C CNN
 F 1 "Conn_01x09" H 9650 650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm" H 9650 1150 50  0001 C CNN
+F 2 "Librerias_FootPrints:D9-D5_SPI" H 9650 1150 50  0001 C CNN
 F 3 "" H 9650 1150 50  0001 C CNN
 	1    9650 1150
 	0    -1   -1   0   
@@ -705,7 +705,7 @@ U 1 1 5B135B19
 P 8400 1150
 F 0 "J4" H 8400 1550 50  0000 C CNN
 F 1 "Conn_01x07" H 8400 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 8400 1150 50  0001 C CNN
+F 2 "Librerias_FootPrints:RST_SPI_ANALOG" H 8400 1150 50  0001 C CNN
 F 3 "" H 8400 1150 50  0001 C CNN
 	1    8400 1150
 	0    -1   -1   0   
